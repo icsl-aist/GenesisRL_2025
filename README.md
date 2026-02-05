@@ -27,7 +27,6 @@ sudo apt install build-essential python3-pip python3-venv git curl gnupg lsb-rel
 ---
 
 ## <div id="2-NVIDIA-CUDA-ToolkitとPyTorchのインストール">2. NVIDIA CUDA ToolkitとPyTorchのインストール
-aaa
 
 ### NVIDIA CUDA Toolkitのインストール
 GenesisをGPUバックエンドで動作させるため、Ubuntu 22.04に対応したCUDAを公式サイトからインストールします。  
@@ -39,8 +38,24 @@ RTX2000番台以降のGPUを使用している場合は基本的に問題ない�
 こちらのサイトからPyTorchが対応しているバージョンをインストールできます。
 
 ### PyTorchのインストール
-NVIDIA公式リポジトリからインストールを行います。
+[PyTorch](https://pytorch.org/get-started/locally/)のサイトから先程インストールしたCUDAのバージョンに合わせてインストールしてください
 
 ---
 ## <div id="3-Genesisのインストール">3. Genesisのインストール
-## <div id="4-Genesisでの実行">4. Genesisでの実行
+pipでGenesisをインストールします。
+```bash
+pip install genesis-world
+```
+
+---
+
+## <div id="5-ROS2-Humbleのインストール">5. ROS2 Humbleのインストール
+
+
+---
+## <div id="6-Kachakaモデル(URDF)の作成">6. Kachakaモデル(URDF)の作成
+
+---
+## <div id="7-トラブルシューティング">7. トラブルシューティング
+
+---
